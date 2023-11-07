@@ -1,0 +1,69 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+h1 {
+    margin: 0 0 10px 0;
+}
+.home {
+    background-color: rgb(36, 36, 36);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+
+}
+
+.home input {
+    width: 30%;
+}
+
+.home select {
+    width: 30%;
+    
+}
+
+.home button {
+    width: 30%;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+}
+
+#leftcolumn {
+    padding: 15px 15px 15px 15px;
+    color: white;
+    background-color: rgb(1, 25, 104);
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    gap: 8px;
+    width: 30%;
+}
+
+#rightcolumn {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 15px 15px 15px 15px;
+    width: 100%;
+    background-color: rgb(93, 93, 93);
+}
+
+.result {
+    color: white;
+    background-color: rgb(1, 25, 104);
+    width: 80%;
+    padding: 20px;
+
+}
+
